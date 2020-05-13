@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Homepage</title>
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/navbox.css">
+<link rel="stylesheet" type="text/css" href="../css/mine.css">
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/mine.js"></script>
+<style>
+	.tab_1{
+		font-size: 25px;
+	}
+	.col-md-4 a{
+		font-size: 30px;
+	}
+		#top{
+			border: none;
+		}
+		.center-block{
+			margin-top: -50px;
+		}
+		.center-block:hover{
+			transition: all 1.5s ease-in-out;
+			transform: rotate(360deg);
+			opacity: 0;
+		}
+		
+		#title{
+			color: #E57373;
+			font-family: "黑体";
+		}
+		#bottom{
+			border: none;
+			background: none;
+		}
+		#bottom ul{
+			opacity: 0.5;
+			border: 2px solid #B0BEC5;
+			border-radius: 50px;
+			background: pink;
+			border: none;
+		}
+		a{
+			color: black;
+		}
+		a:hover{
+			text-decoration: none;
+		}
+		
+	</style>
+	
+</head>
+<body>
+	
+<div class="container box">
+	<div class="row content_box">
+		<div class="col-md-12 column" id="content">
+			<h1 class="text-center" id="title"> 我的 </h1>
+			<div class="col-xs-12 col-sm-12 col-md-12 border" id="border">
+				<div class="row">
+					<div class="col-xs-4 col-sm-4 col-md-4 text-center"><span class="opertate" style="background: #F8BBD0;">签到</span></div>
+					<div class="col-xs-4 col-sm-4 col-md-4 fakeimg ">
+						<img alt="140x140" src="../images/head.jpg" id="logo" class="img-circle center-block" style="height:170px;width:170px;"/>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 text-center "><span class="opertate" style="background: #FFEBEE;">账户</span></div>
+				</div>
+				<div class="row">
+					<ul class="nav nav-pills nav-stacked tab_1 h5 ">
+						<li class="text-center"><a href="#a" class="change">累计授课：<span id="class_count">1195</span>次</a></li>
+						<li  class="text-center"><a href="#b" class="change">等级：<span id="level">3</span></a></li>
+						<li  class="text-center"><a href="#c" class="change">好评：<span id="well">28</span>次</a></li>
+					</ul>
+				</div>
+				<hr class="hidden-sm hidden-md hidden-lg">
+			</div>
+			<div class="text-center big-box ">
+				<div class="col-xs-12 col-sm-12 col-md-12" style="padding: 0">
+					<div class="row">
+						<div class="box col-xs-4 col-sm-4 col-md-4 " style="padding: 40px;">
+							<p style="background: #E5F1EF;"><a href="profile.html">信息修改</a></p>
+						</div>
+						<div class="box  col-xs-4 col-sm-4 col-md-4" style="padding: 40px;">
+							<p style="background:#F4F5EF"><a>我的收藏</a></p>
+						</div>
+						<div class="box col-xs-4 col-sm-4 col-md-4" style="padding: 40px;">
+							<p style="background:#F7F3EA"><a>评价管理</a></p>
+						</div>
+						<div class="box col-xs-4 col-sm-4 col-md-4" style="padding: 40px;">
+							<p style="background:#F4E6E5"><a>邀请返利</a></p>
+						</div>
+						<div class="box  col-xs-4 col-sm-4 col-md-4" style="padding: 40px;">
+							<p style="background:#F3EEF4"><a>订单处理</a></p>
+						</div>
+						<div class="box  col-xs-4 col-sm-4 col-md-4" style="padding: 40px;">
+							<p style="background:#E8EAF6"><a>客服反馈</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center" id="bottom" style="margin-bottom:0">
+				<ul class="nav nav-pills">
+					<div class="col-sm-4 col-xs-4 col-md-4 lists ">
+						<li class="active"> <a href="findorder.html" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc">找学员</a> </li>
+					</div>
+					<div class="col-sm-4 col-xs-4 col-md-4  lists">
+						<li> <a href="order.html" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc">订单</a> </li>
+					</div>
+					<div class="col-sm-4 col-xs-4 col-md-4 lists">
+						<li class="disabled"> <a href="mine.html" class="md-opjjpmhoiojifppkkcdabiobhakljdgm_doc">我的</a> </li>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

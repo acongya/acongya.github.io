@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content{
+	width: 100%;
+	position: relative;
+}
+#top{
+	width: 100%;
+	border: 2px #888 solid;
+	background: #fff;
+	height: 50px;
+	border-radius:10px;
+	margin: 0;
+}
+#main{
+	margin-top: 40px;
+}
+#bottom{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	border: 2px #888 solid;
+	background: #fff;
+	height: 50px;
+	border-radius:10px;
+	margin: 0;
+}
+#bottom .nav-pills{
+	height: 100%;
+
+}
+ #bottom .lists,#top .lists{
+	height: 100%;
+	padding: 0;
+	vertical-align: middle;
+}
+ #bottom li, #top li{
+	display: inline-block;
+	height: 100%;
+	line-height: 100%;
+	width: 100%;
+}
+#bottom ul li a,#top ul li a{
+	display: inline-block;
+	height: 100%;
+	line-height: 50px;
+	font-size: 2em;
+	color: #000;
+}
